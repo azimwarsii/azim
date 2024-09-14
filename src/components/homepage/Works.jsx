@@ -78,7 +78,7 @@ export default function Works({ forwardedRef }) {
           />
         </div>
           {/* Project #6 */}
-        <div className="col-span-1  h-fit md:col-start-5 md:col-end-13 ">
+        <div className="col-span-1  h-fit md:col-start-6 md:col-end-13 ">
           <Projects 
             link="https://deenflow.vercel.app/"
             img={deenflow}
