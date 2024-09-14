@@ -3,6 +3,7 @@ import delemate from "/src/assets/images/delemate-desktop.webp";
 import acc from "/src/assets/images/acc-square.webp";
 import resume from "/src/assets/images/resume-desktop.webp";
 import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
+import deenflow from "/src/assets/images/deenflow.webp";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
 
@@ -14,7 +15,7 @@ export default function Works({ forwardedRef }) {
       className="nav-change overflow-hidden my-[10%]"
     >
      <Heading title="Projects" />
-      <div className="mt-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
+      <div className="mt-10 grid grid-cols-1 gap-10 gap-y-10 md:grid-cols-12">
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
@@ -40,6 +41,7 @@ export default function Works({ forwardedRef }) {
             tools="NextJS • React Native • Firebase • Chakra UI"
           />
         </div>
+         {/* Project #3 */}
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
             link="https://www.youtube.com/watch?v=N3H0mRFHo2E"
@@ -51,6 +53,7 @@ export default function Works({ forwardedRef }) {
             tools="React Native • Blockchain • Figma • NativeWind"
           />
         </div>
+         {/* Project #4 */}
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
             link="https://resume-maker-pi.vercel.app/"
@@ -62,6 +65,7 @@ export default function Works({ forwardedRef }) {
             tools="HTML • TailwindCSS • JavaScript • React"
           />
         </div>
+         {/* Project #5 */}
         <div className="col-span-1 h-fit md:col-span-4">
         <Projects
             link="https://indian-carpool.vercel.app/"
@@ -72,7 +76,18 @@ export default function Works({ forwardedRef }) {
             year="2023"
             tools="JavaScript • Vite • Firebase"
           />
-         
+        </div>
+          {/* Project #6 */}
+        <div className="col-span-1  h-fit md:col-start-5 md:col-end-13 ">
+          <Projects 
+            link="https://deenflow.vercel.app/"
+            img={deenflow}
+            alt="Pomodoro App"
+            name="Time Management App"
+            type="Design • Full-Stack Development"
+            year="2024"
+            tools=" Chakra UI • React • Firebase • NextJS"
+          />
         </div>
       </div>
     </section>
