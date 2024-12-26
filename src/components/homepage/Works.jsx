@@ -17,7 +17,7 @@ export default function Works({ forwardedRef }) {
      <Heading title="Projects" />
       <div className="mt-10 grid grid-cols-1 gap-10 gap-y-10 md:grid-cols-12">
         {/* Project #1 */}
-        <div className=" col-span-1 md:col-span-10">
+        <div className=" col-span-1 md:col-span-12 md:pt-16">
            <Projects 
             link="https://deenflow-azimwarsiis-projects.vercel.app/"
             img={deenflow}
