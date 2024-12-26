@@ -80,7 +80,7 @@ export default function Works({ forwardedRef }) {
           {/* Project #6 */}
         <div className="col-span-1  h-fit md:col-start-6 md:col-end-13 ">
           <Projects 
-            link="https://deenflow.vercel.app/"
+            link="https://deenflow-azimwarsiis-projects.vercel.app/"
             img={deenflow}
             alt="Pomodoro App"
             name="Time Management App"
