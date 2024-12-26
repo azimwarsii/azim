@@ -18,15 +18,14 @@ export default function Works({ forwardedRef }) {
       <div className="mt-10 grid grid-cols-1 gap-10 gap-y-10 md:grid-cols-12">
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
-          <Projects
-            link="https://www.youtube.com/watch?v=ImCkcmlosjk"
-            img={sunnyside}
-            alt="Indian Carpool"
-            name="ML model that detects fish diseases & species"
-            type="Application Development • Machine Learning"
+           <Projects 
+            link="https://deenflow-azimwarsiis-projects.vercel.app/"
+            img={deenflow}
+            alt="Pomodoro App"
+            name="Time Management App"
+            type="Design • Full-Stack Development"
             year="2024"
-            tools=" TensorFlow • Expo • React Native • Firebase"
-
+            tools=" Chakra UI • React • Firebase • NextJS"
           />
         </div>
         {/* Project #2 */}
@@ -79,14 +78,15 @@ export default function Works({ forwardedRef }) {
         </div>
           {/* Project #6 */}
         <div className="col-span-1  h-fit md:col-start-6 md:col-end-13 ">
-          <Projects 
-            link="https://deenflow-azimwarsiis-projects.vercel.app/"
-            img={deenflow}
-            alt="Pomodoro App"
-            name="Time Management App"
-            type="Design • Full-Stack Development"
+          <Projects
+            link="https://www.youtube.com/watch?v=ImCkcmlosjk"
+            img={sunnyside}
+            alt="Indian Carpool"
+            name="ML model that detects fish diseases & species"
+            type="Application Development • Machine Learning"
             year="2024"
-            tools=" Chakra UI • React • Firebase • NextJS"
+            tools=" TensorFlow • Expo • React Native • Firebase"
+
           />
         </div>
       </div>
